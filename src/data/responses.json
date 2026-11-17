@@ -1,0 +1,73 @@
+[
+  {
+    "id": "1fc58044-2026-445c-a4e1-31e364049d49",
+    "surveyId": "a61557e5-1ce0-4b9e-8f5c-c63d0378a3cf",
+    "answers": [
+      {
+        "questionId": "q1",
+        "value": 5
+      },
+      {
+        "questionId": "q2",
+        "value": "Yes"
+      }
+    ],
+    "submittedAt": "2026-11-17T19:22:02.941Z"
+  },
+  {
+    "id": "54977751-f7a5-4e1f-8840-9dd328b35655",
+    "surveyId": "a61557e5-1ce0-4b9e-8f5c-c63d0378a3cf",
+    "answers": [
+      {
+        "questionId": "q1",
+        "value": 3
+      },
+      {
+        "questionId": "q2",
+        "value": "No"
+      }
+    ],
+    "submittedAt": "2026-11-17T19:23:25.375Z"
+  },
+  {
+    "id": "dc0840d0-6c26-4f23-9d1a-09e98729a88a",
+    "surveyId": "77c7191d-5008-4cde-84d1-5394098c82a8",
+    "answers": [
+      {
+        "questionId": "q1",
+        "value": "Yes"
+      },
+      {
+        "questionId": "q2",
+        "value": "Toyota"
+      }
+    ],
+    "submittedAt": "2026-11-17T19:37:53.760Z"
+  },
+  {
+    "id": "92e7fe86-5cda-4491-b15c-62d45848ebd5",
+    "surveyId": "77c7191d-5008-4cde-84d1-5394098c82a8",
+    "answers": [
+      {
+        "questionId": "q1",
+        "value": "No"
+      }
+    ],
+    "submittedAt": "2026-11-17T19:38:05.108Z"
+  },
+  {
+    "id": "299f7558-4754-4043-a72f-4bac863ccc04",
+    "surveyId": "77c7191d-5008-4cde-84d1-5394098c82a8",
+    "answers": [
+      {
+        "questionId": "q1",
+        "value": "Yes"
+      },
+      {
+        "questionId": "q2",
+        "value": "car"
+      }
+    ],
+    "submittedAt": "2026-11-17T20:47:44.888Z"
+  }
+]

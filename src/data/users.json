@@ -1,0 +1,9 @@
+[
+  {
+    "id": "ecb12b8b-367b-40ab-a7b2-9d58f606ebca",
+    "email": "admin@example.com",
+    "password": "$2b$12$7vrucVT7cvyA8EUc30VaduSyNsvyXgKKJ782ZXvW/ESAgqWj6NNe6",
+    "role": "admin",
+    "createdAt": "2026-11-17T18:12:17.415Z"
+  }
+]

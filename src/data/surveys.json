@@ -1,0 +1,61 @@
+[
+  {
+    "id": "a61557e5-1ce0-4b9e-8f5c-c63d0378a3cf",
+    "title": "Customer Feedback",
+    "description": "Help us improve our service.",
+    "status": "published",
+    "questions": [
+      {
+        "id": "q1",
+        "title": "How was our service?",
+        "type": "rating",
+        "required": true,
+        "options": []
+      },
+      {
+        "id": "q2",
+        "title": "Would you recommend us?",
+        "type": "multiple_choice",
+        "required": true,
+        "options": [
+          "Yes",
+          "No"
+        ]
+      }
+    ],
+    "createdAt": "2026-11-17T19:10:07.322Z",
+    "updatedAt": "2026-11-17T19:16:06.496Z"
+  },
+  {
+    "id": "77c7191d-5008-4cde-84d1-5394098c82a8",
+    "title": "Conditional Logic Test",
+    "description": "Testing conditional questions.",
+    "status": "published",
+    "questions": [
+      {
+        "id": "q1",
+        "title": "Do you own a vehicle?",
+        "type": "multiple_choice",
+        "required": true,
+        "options": [
+          "Yes",
+          "No"
+        ]
+      },
+      {
+        "id": "q2",
+        "title": "What vehicle do you own?",
+        "type": "text",
+        "required": true,
+        "options": [],
+        "condition": {
+          "questionId": "q1",
+          "operator": "equals",
+          "value": "Yes"
+        }
+      }
+    ],
+    "createdAt": "2026-11-17T19:36:16.428Z",
+    "updatedAt": "2026-11-17T19:37:06.524Z"
+  }
+]
