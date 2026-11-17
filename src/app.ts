@@ -8,8 +8,17 @@ import analyticsRoutes from "./routes/analytics.routes";
 
 const app = express();
 
-app.use(cors({ origin: "http://localhost:5173" }));
-app.use(express.json());
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://survey-frontend-ashen-three.vercel.app",
+];
+
+app.use(
+  cors({
+    origin: allowedOrigins,
+    credentials: true,
+  })
+);app.use(express.json());
 
 app.get("/api/health", (_req, res) => {
   res.status(200).json({
