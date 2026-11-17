@@ -18,7 +18,9 @@ app.use(
     origin: allowedOrigins,
     credentials: true,
   })
-);app.use(express.json());
+);
+
+app.use(express.json());
 
 app.get("/api/health", (_req, res) => {
   res.status(200).json({
